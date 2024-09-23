@@ -79,7 +79,68 @@ width: 500px;
     flex-direction: row;
 
 }
+.footer{
+    display: flex ;
+ justify-content: space-between
+}
 
+
+
+
+
+
+
+@media only screen and (min-width: 400px) {
+    .searchb{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .searchb input{
+        max-width: 150px;
+        max-height: 100px;
+        bottom: -70px;
+        z-index: 100;
+    }
+    .homeimg{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        bottom: -420px;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        z-index: 1;
+
+    }
+
+    .phoneh{
+        width: 200px;
+        }
+
+        .ptext{
+            padding-top: 100px;
+            font-size: 15px;
+             color: white; 
+             font: bolder;
+        }
+
+        .playstore{
+            padding-top: 15px;
+            padding-right: 15px;
+        }
+
+        .news{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer{
+            display: flex ;
+            flex-direction: column;
+        }
+
+}
 
 
 
@@ -94,7 +155,7 @@ width: 500px;
     }
 
     .searchb input{
-        margin-top: 50px;
+        margin-top: 20px;
         width: 300px;
         height: 120px;
     }
@@ -102,24 +163,13 @@ width: 500px;
         display: flex;
         flex-direction: column;
         margin-top: -150px;
-        margin-left: 350px;
+        margin-left: 250px;
+
     }
 
-    .phoneh{
-        width: 450px;
-        }
-
-        .ptext{
-            padding-top: 100px;
-            font-size: 25px;
-             color: white; 
-             font: bolder;
-        }
-
-        .playstore{
-            padding-top: 15px;
-            padding-right: 15px;
-        }
+ .playstore{
+    flex-direction: row;
+ }
 
         .news{
             display: flex;
