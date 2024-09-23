@@ -59,10 +59,6 @@ a:hover{
     display: flex;
 }
 
-.homeimg{
-    margin-left: 500px
-}
-
 .phonec{
 display: flex;
 }
@@ -102,17 +98,7 @@ width: 500px;
         bottom: -70px;
         z-index: 100;
     }
-    .homeimg{
-        display: flex;
-        flex-direction: column;
-        margin-left: 200px;
-        bottom: -420px;
-        height: 100px;
-        width: 100px;
-        position: absolute;
-        z-index: 1;
 
-    }
 
     .phoneh{
         width: 200px;
@@ -159,13 +145,7 @@ width: 500px;
         width: 300px;
         height: 120px;
     }
-    .homeimg{
-        display: flex;
-        flex-direction: column;
-        margin-top: -150px;
-        margin-left: 250px;
 
-    }
 
  .playstore{
     flex-direction: row;
@@ -191,12 +171,7 @@ width: 500px;
         width: 300px;
         height: 120px;
     }
-    .homeimg{
-        display: flex;
-        flex-direction: column;
-        margin-top: -150px;
-        margin-left: 500px;
-    }
+
 
     .phoneh{
         width: 450px;
