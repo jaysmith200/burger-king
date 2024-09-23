@@ -144,7 +144,7 @@ width: 500px;
         display: flex;
         flex-direction: column;
         margin-top: -150px;
-        margin-left: 350px;
+        margin-left: 500px;
     }
 
     .phoneh{
@@ -152,7 +152,7 @@ width: 500px;
         }
 
         .ptext{
-            padding-top: 100px;
+            padding-top: 200px;
             font-size: 25px;
              color: white; 
              font: bolder;
