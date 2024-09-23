@@ -76,6 +76,7 @@ width: 500px;
 }
 .news{
     display: flex;
+    flex-direction: row;
 
 }
 
